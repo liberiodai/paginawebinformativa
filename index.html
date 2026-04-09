@@ -5,96 +5,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Informativa</title>
+
+    <link rel="stylesheet" href="estilo/estilo.css">
 </head>
 
 <body>
-    <h1>Servicios de Desarrollo y Mantenimiento de Software</h1>
-    <hr>
     <div>
-        <h2>¿Quiénes somos?</h2>
-        <p>
-            Somos un equipo especializado en el desarrollo de software y mantenimiento de sistemas,
-            comprometidos con ofrecer soluciones tecnológicas eficientes.
-        </p>
-    </div><br>
+        <div class="menu">
+            <ul>
+                <li><a href="../index.html"><ion-icon name="home-sharp"></ion-icon> Inicio</a></li>
+                <li><a href="#"><ion-icon name="clipboard-sharp"></ion-icon>Servicios</a></li>
+                <li><a href="#"><ion-icon name="alarm-sharp"></ion-icon> Nosotros</a></li>
+            </ul>
+        </div>
 
-    <div>
-        <h2>¿Qué hacemos?</h2>
-        <p>
-            Desarrollamos aplicaciones web, sistemas personalizados y brindamos soporte técnico.
-        </p>
-    </div><br>
+        <!--BOTON FIJO-->
+        <div class="contactanos">
+            <a href="contactanos/index.html">Contactanos</a>
+        </div>
 
-    <div>
-        <h2>¿Qué ofrecemos?</h2>
-        <ul>
-            <li>Desarrollo de páginas web</li>
-            <li>Mantenimiento de software</li>
-            <li>Soporte técnico</li>
-            <li>Asesoría tecnológica</li>
-        </ul>
-    </div><br><!--se realizo listas para poner lo que ofrecemos-->
+        <div>
+            <h1>Servicios de Desarrollo y Mantenimiento de Software</h1>
+        </div>
+        
+        <div>
+            <h2>¿Quiénes somos?</h2>
+            <p>
+                Somos un equipo especializado en el desarrollo de software y mantenimiento de sistemas,
+                comprometidos con ofrecer soluciones tecnológicas eficientes.
+            </p>
+        </div>
 
-    <div>
-        <h2>Imágenes de nuestros servicios</h2>
-        <table border="1 px"><!--se le agrego bordes para ver mejor las imagenes-->
-            <tr>
-                <th>Desarrollo de software</th>
-                <th>Mantenimiento de sistemas</th>
+        <div>
+            <h2>¿Qué hacemos?</h2>
+            <p>
+                Desarrollamos aplicaciones web, sistemas personalizados y brindamos soporte técnico.
+            </p>
+        </div>
 
-            </tr>
-            <tr>
-                <td><img src="img/desarrollo.033" alt="desarrollo de software" width="440 px"></td>
-                <td><img src="img/mantenimiento de sistemas.jpg" alt="mantenimiento de sistemas" width="500 px"></td>
-            </tr>
-        </table><br>
+        <div>
+            <h2>¿Qué ofrecemos?</h2>
+            <ul>
+                <li>Desarrollo de páginas web</li>
+                <li>Mantenimiento de software</li>
+                <li>Soporte técnico</li>
+                <li>Asesoría tecnológica</li>
+            </ul>
+        </div><br><!--se realizo listas para poner lo que ofrecemos-->
 
-    </div>
+        <div>
+            <h2>Imágenes de nuestros servicios</h2>
+        </div>
 
-    <div>
-        <h2>Dirección</h2>
-        <p>Quito, Ecuador</p>
-        <button onclick="window.open('https://maps.app.goo.gl/yjJ6sqXL5BCwAAod6', '_blank')">Ir al mapa</button>
-        <!--se agrego boton para ir a ver el mapa-->
-    </div><br>
-    <hr>
-
-    <div>
-        <h2>Redes Sociales</h2>
+        <div class="imagenes">
+            <ul>
+                <li><img src="img/desarrollo.033" alt="desarrollo de software" >Desarrollo de software</li>
+                <li><img src="img/mantenimiento de sistemas.jpg" alt="mantenimiento de sistemas">Mantenimiento de sistemas</li>
+            </ul>
+        </div>
+            
+        
+        <div>
+            <h2>Dirección</h2>
+            <p>Quito, Ecuador</p>
+            <button onclick="window.open('https://maps.app.goo.gl/yjJ6sqXL5BCwAAod6', '_blank')">Ir al mapa</button>
+            <!--se agrego boton para ir a ver el mapa-->
+        </div><br>
         <hr>
-        <p>
-            <img src="img/instagram-logo-app-png.png"
-                onclick="window.open('https://www.instagram.com/', '_blank')"" width=" 100 px"></img>
-            <img src="img/WhatsApp.svg.webp" onclick="window.open('https://web.whatsapp.com/', '_blank')"" width=" 90
-                px"></img>
-        </p><!--se puso una imagen como boton para mandarlo de forma  directa-->
-    </div> <br>
 
-    <div>
-        <h2>Contáctanos para recibir más información</h2>
+        <div>
+            <h2>Redes Sociales</h2>
+            <hr>
+            <p>
+                <img src="img/instagram-logo-app-png.png"
+                    onclick="window.open('https://www.instagram.com/', '_blank')"" width=" 100 px"></img>
+                <img src="img/WhatsApp.svg.webp" onclick="window.open('https://web.whatsapp.com/', '_blank')"" width=" 90
+                    px"></img>
+            </p><!--se puso una imagen como boton para mandarlo de forma  directa-->
+        </div> <br>
 
-        <form action="">
-            <div>
-                <label for="Nombre">Nombre:</label>
-                <input type="text" id="Nombre" name="Nombre">
-            </div><br>
-
-            <div>
-                <label for="Correo">Correo:</label>
-                <input type="text" id="Correo" name="Correo">
-            </div><br>
-
-            <div>
-                <label for="Mensaje">Mensaje:</label>
-                <input type="text" id="Mensaje" name="Mensaje">
-            </div><br>
-
-            <div>
-                <input type="submit" value="Enviar">
-            </div>
-        </form>
     </div>
-
 </body>
 
 </html>
