@@ -1,33 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nosotros</title>
 
-    <link rel="stylesheet" href="../estilos/estilos.css">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="../public/bootstrap/css/bootstrap.min.css">
 
 </head>
+
 <body>
     <div>
-        <div class="menu">
-            <ul>
-                <li><a href="../index.html"><ion-icon name="home-sharp"></ion-icon> Inicio</a></li>
-                <li><a href="/Nosotros/index.html"><ion-icon name="clipboard-sharp"></ion-icon></a>Nosotros</li>
-                <li><a href="#"><ion-icon name="alarm-sharp"></ion-icon>Servicios</a></li>
-            </ul>
-        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container">
+
+                <!-- Logo a la izquierda -->
+                <a class="navbar-brand" href="#">SDWEB</a>
+
+                <!-- Botón responsive -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Menú a la derecha -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="../index.html"><ion-icon
+                                    name="home-sharp"></ion-icon>Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Nosotros/index.html"><ion-icon
+                                    name="clipboard-sharp"></ion-icon>Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Servicios/index.html"><ion-icon
+                                    name="alarm-sharp"></ion-icon>Servicios</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+
+
+        <!---->
         <div>
             <h2>¿Quiénes somos?</h2>
-        </div>
+        </div> <br>
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../img/SOMOS2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <p>Somos un equipo especializado en el desarrollo de software y mantenimiento de sistemas,
+                            comprometidos con ofrecer soluciones tecnológicas eficientes.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div><br>
+
+        <!---->
         <div>
+            <h2>Redes Sociales</h2>
+            <hr>
             <p>
-                Somos un equipo especializado en el desarrollo de software y mantenimiento de sistemas,
-                comprometidos con ofrecer soluciones tecnológicas eficientes.
-            </p>
+                <img src="../img/instagram-logo-app-png.png"
+                    onclick="window.open('https://www.instagram.com/', '_blank')"" width=" 100 px"></img>
+                <img src="../img/WhatsApp.svg.webp"
+                    onclick="window.open('https://web.whatsapp.com/', '_blank')"" width=" 90 px"></img>
+            </p><!--se puso una imagen como boton para mandarlo de forma  directa-->
+        </div> <br>
+
+        <!--BOTON FIJO-->
+        <div class="contactanos">
+            <a href="../contactanos/index.html">Contactanos</a>
         </div>
+
+        <script type="module" src=" https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js "></script>
+        <script nomodule src=" https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js "></script>
+
     </div>
-    <script type="module" src=" https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js "></script>
-    <script nomodule src=" https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js "></script>
 </body>
+
 </html>

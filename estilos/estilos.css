@@ -1,43 +1,65 @@
-h1{
+h1 {
     text-align: center;
     color: rgb(12, 105, 187);
 }
-.menu {
-    list-style-type: none;
-    text-align: right;
+
+
+.navbar {
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    transition: 0.3s;
 }
 
-.menu li     {
-    display: inline-flex;
-    padding: 15px;
-    margin: 20px;
+.navbar.scrolled {
+    background: black;
 }
 
-a {
+body {
+    padding-top: 70px;
+}
+
+
+.contactanos {
+    display: inline-block;
+    padding: 12px 25px;
+    background: linear-gradient(45deg, white, #2575fc);
+    color: white;
     text-decoration: none;
-    color: black;
-}
-
-.menu a:hover {
-    color: rgb(35, 35, 175);
-}
-.contactanos{
-    position: fixed;
-    padding: 10px;
-    border-radius: 50%;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: 0.3s;
     bottom: 10px;
     right: 10px;
-    background-color: aquamarine;
+    position: fixed;
 }
-.imagenes{
-    list-style-type: none;
+
+.contactanos:hover {
+    opacity: 0.85;
+    transform: translateY(-2px);
+}
+
+.carousel-item img {
+    width: 50%;
+    height: 300px;
+    object-fit: cover;
+}
+
+#carouselExampleDark {
+    max-width: 800px;
+    margin: auto;
+}
+
+.carousel-caption,
+h5,
+p {
+    color: white;
+}
+
+.d-grid gap-2 col-6 mx-auto,
+h3 {
     text-align: center;
 }
-.imagenes  li{
-    display: inline-flex;
-    padding: 15px;
-    margin: 20px;
-}
-.imagenes img{
- width: 440 px;
+
+h2 {
+    text-align: center;
 }

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="../public/bootstrap/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container">
+
+                <!-- Logo a la izquierda -->
+                <a class="navbar-brand" href="#">SDWEB</a>
+
+                <!-- Botón responsive -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Menú a la derecha -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="../index.html"><ion-icon
+                                    name="home-sharp"></ion-icon>Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Nosotros/index.html"><ion-icon
+                                    name="clipboard-sharp"></ion-icon>Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Servicios/index.html"><ion-icon
+                                    name="alarm-sharp"></ion-icon>Servicios</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </div>
+
+    <div class="ofrecemos">
+        <h3>¿Qué ofrecemos?</h3>
+    </div><br><!--se realizo listas para poner lo que ofrecemos-->
+
+    <div class="lista">
+            <ul >
+                <li>Desarrollo de páginas web</li>
+                <li>Mantenimiento de software</li>
+                <li>Soporte técnico</li>
+                <li>Asesoría tecnológica</li>
+            </ul>
+    </div>
+    <div>
+        <h2>Imágenes de nuestros servicios</h2>
+    </div>
+
+
+    <!---->
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="5000">
+                <img src="../img/entornos-de-desarrollo.jpg" class="d-block w-100" alt="Desarrollo de software">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Desarrollo de software</h5>
+                    <p>Desarrollamos soluciones de software a medida que se adaptan a las necesidades de cada
+                        cliente,
+                        garantizando calidad, eficiencia y escalabilidad en cada proyecto.</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+                <img src="../img/mantenimiento.png" class="d-block w-100" alt="mantenimiento de sistemas">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Mantenimiento de sistemas</h5>
+                    <p>Ofrecemos soporte técnico oportuno para resolver incidencias, minimizar tiempos de
+                        inactividad
+                        y garantizar la continuidad del servicio.</p>
+                </div>
+            </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!--BOTON FIJO-->
+        <div class="contactanos">
+            <a href="../contactanos/index.html">Contactanos</a>
+        </div>
+
+
+    <script type="module" src=" https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js "></script>
+    <script nomodule src=" https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js "></script>
+
+    <script src="../public/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

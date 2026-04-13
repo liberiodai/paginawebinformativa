@@ -1,0 +1,44 @@
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* para que quede encima */
+}
+h2{
+    text-align: center;
+}
+body {
+    padding-top: 70px;
+}
+.carousel-item img {
+    width: 50%;
+    height: 300px;
+    object-fit: cover; 
+}
+#carouselExampleDark {
+    max-width: 800px;
+    margin: auto; 
+}
+.carousel-caption, h5, p{
+    color: white;
+}
+
+.contactanos {
+    display: inline-block;
+    padding: 12px 25px;
+    background: linear-gradient(45deg, white, #2575fc);
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: 0.3s;
+    bottom: 10px;
+    right: 10px;
+    position: fixed;
+}
+
+.contactanos:hover {
+    opacity: 0.85;
+    transform: translateY(-2px);
+}
